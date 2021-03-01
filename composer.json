@@ -1,5 +1,5 @@
 {
-    "name": "guangda/wecom-notification-channel",
+    "name": "guangda/laravel-wecom-notification-channel",
     "description": "WeCom notification channel for Laravel",
     "license": "MIT",
     "authors": [
