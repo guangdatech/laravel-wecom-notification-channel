@@ -2,5 +2,5 @@
 
 ### Installation
 ```
-composer require guangda/wecom-notification-channel
+composer require guangda/laravel-wecom-notification-channel
 ```
