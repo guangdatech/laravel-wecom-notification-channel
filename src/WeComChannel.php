@@ -32,9 +32,8 @@ class WeComChannel
         $message = $notification->toWeCom($notifiable);
         $client = new Client();
 
-        $res = $client->request('POST', 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=' . $key, [
+        return $client->request('POST', 'https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=' . $key, [
             'json' => $message->getBody(),
         ]);
-        echo $res->getStatusCode();
     }
 }
